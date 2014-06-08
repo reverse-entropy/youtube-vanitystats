@@ -1,0 +1,24 @@
+{
+  "name": "youtube-vanitystats",
+  "version": "0.0.1",
+  "description": "A scheduled job that will will query YouTube's API for a given video ID. It will then email you the number of views and amount of revenue you have made since the last time it was run.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "YouTube",
+    "Vanity",
+    "Stats"
+  ],
+  "author": "Sebastian Patten <sebastianpatten@reverseentropyconsulting.com> (http://reverseentropyconsulting.com)",
+  "license": "MIT",
+  "dependencies": {
+    "accounting": "^0.3.2",
+    "minimist": "^0.2.0",
+    "nconf": "^0.6.9",
+    "node-schedule": "^0.1.13",
+    "nodemailer": "^0.6.5",
+    "youtube-api": "^0.2.2"
+  },
+  "bin": "./bin/index.js"
+}
