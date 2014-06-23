@@ -7,7 +7,7 @@ A scheduled job that will will query YouTube's API for a given video ID. It will
 ## Configure
 You will need to create a config.json file:
 
-```
+```json
 {
   "previousNumberOfViews": 0,
   "rpm": 0.35,
