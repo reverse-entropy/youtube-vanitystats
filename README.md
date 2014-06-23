@@ -31,7 +31,7 @@ You will need to create a config.json file:
 
 ### Key
 | Name          | Description
-| ------------- |:-------------:|
+| ------------- |-------------|
 | previousNumberOfViews     | Upon running, the application saves the number of views to this variable. It starts at 0. |
 | rpm      | Put your estimated RPM here. The default is 0.35.|
 | video:id | The unique id of the video on YouTube.com e.g. "Xm7QZlkyB_4"|
